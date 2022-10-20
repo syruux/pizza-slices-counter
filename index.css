@@ -1,0 +1,68 @@
+body {
+    background-image: url("pizza-slices.jpeg");
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: lightgoldenrodyellow;
+}
+
+#slice-counter {
+    width: 405px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 42px;
+    text-shadow: 3px 3px 0 darkred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: darkorange;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid lightgoldenrodyellow;
+    box-shadow: 5px 5px 0 lightgoldenrodyellow;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 0 darkred;
+
+}
+
+button {
+    border: 2px solid lightgoldenrodyellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    text-shadow: 0 0 2px darkred;
+}
+
+#increment-btn {
+    background: lightcoral;
+}
+
+#increment-btn:hover {
+    font-size: 18px;
+    background: coral;
+}
+
+#save-btn {
+    background: olivedrab;
+}
+
+#save-btn:hover {
+    font-size: 18px;
+    background: olive;
+}
+
+#save-el {
+    font-size: 22px;
+    text-shadow: 3px 3px 0 darkred;
+}
